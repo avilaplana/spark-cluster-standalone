@@ -1,0 +1,1 @@
+spark-submit --class wikipedia.WikipediaRanking --master spark://localhost:7077 --deploy-mode client ./bigdata-wikipedia_2.11-0.1-SNAPSHOT.jar
